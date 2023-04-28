@@ -8,12 +8,9 @@ Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder that affects com
 
 ![2](https://user-images.githubusercontent.com/85023497/235231971-436e0ad4-138f-4b81-83d3-6592b5853927.jpg)
 
-![3](https://user-images.githubusercontent.com/85023497/235231999-db40611b-45ab-4c6e-aa26-bf89e475315e.jpg)
-
-![4](https://user-images.githubusercontent.com/85023497/235232027-219f854f-4f9f-4457-9caa-9a029bd40fb3.jpg)
-
-
 Our project for Autism Spectrum Disorder (ASD) focuses on providing a range of services to support parents in strengthening their bond with their child with ASD. These services include:
+
+![3](https://user-images.githubusercontent.com/85023497/235231999-db40611b-45ab-4c6e-aa26-bf89e475315e.jpg)
 
 Fun Games for ASD: These games are carefully designed to promote communication, social skills, and emotional regulation in a playful and enjoyable manner. By incorporating elements such as visual supports, clear instructions, and individualized adaptations, our games are tailored to the unique needs and interests of children with ASD
 
@@ -26,6 +23,8 @@ Fun Games for ASD: These games are carefully designed to promote communication, 
 ![9](https://user-images.githubusercontent.com/85023497/235232204-65830855-9daa-4f19-a64d-36fe1b923e60.jpg)
 
 Text-to-Speech Technology: this allows children with limited verbal communication abilities to express themselves, share their thoughts, and engage in conversations with their parents.
+
+![4](https://user-images.githubusercontent.com/85023497/235232027-219f854f-4f9f-4457-9caa-9a029bd40fb3.jpg)
 
 Parent Education and Training: We offer comprehensive parent education and training programs that provide parents with knowledge, skills, and strategies to better understand and support their child with ASD.
 
