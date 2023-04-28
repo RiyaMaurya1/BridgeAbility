@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&display=swap');
+
+:root {
+  --border-color: #e3e5e4;
+  --background-color: #c3c7ca;
+  --text-color: #34444f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #522546;
+    font-family: 'EB Garamond', serif;
+    color: #E1EEDD;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+.heading{
+    margin: 1%;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.bold{
+    color: #fff;
+    font-size: 5rem;
+}
+
+.text {
+    font-size: 1.5rem;
+    margin-bottom: 4%;
+}
+
+.draggable-list {
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding: 0;
+  list-style-type: none;
+}
+
+.draggable-list li {
+  background-color: #CCD6A6 ;
+  display: flex;
+  flex: 1;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+
+.draggable-list .number {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  height: 80px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.draggable-list li.over .draggable {
+  background-color: #eaeaea;
+}
+
+.draggable-list .person-name {
+  margin: 0 20px 0 0;
+}
+
+.draggable-list li.right .person-name {
+  color: green;
+}
+
+.draggable-list li.wrong .person-name {
+  color: #ff3838;
+}
+
+.draggable {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  flex: 1;
+}
+
+.check-btn {
+  background-color: #E1EEDD;
+  border: none;
+  color: #34444f;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 5%;
+}
+
+/* .check-btn:hover{
+    background-color: #609EA2;
+} */
+
+.check-btn:active {
+  transform: scale(0.97);
+}
+
+.check-btn:focus {
+  outline: none;
+}
