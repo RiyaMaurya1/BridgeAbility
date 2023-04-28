@@ -1,0 +1,92 @@
+body{
+    background-color:rgb(179, 230, 206);
+    margin-top: 60px;
+  }
+  #header{
+    text-align: center;
+    color:rgb(45, 172, 112);
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  #input{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  #text{
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(45, 172, 112);
+    color: white;
+    font-size: 15px;
+  }
+  ::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  ::-ms-input-placeholder{
+    color: white;
+  }
+  :-ms-input-placeholder{
+    color: white;
+  }
+  #output{
+    margin-top: 10px;
+    padding-top: 20px;
+    text-align: center;
+    color:rgb(45, 172, 112);
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #options{
+    margin-top: 20px;
+    text-align: center;
+  }
+  #speed{
+    display: inline-block;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: rgb(45, 172, 112);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px rgb(179, 230, 206);
+    font-size: 15px;
+  }
+  #speed:hover {
+    background-color: rgb(32, 105, 71);
+  }
+  #play-button, #stop-button{
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: rgb(45, 172, 112);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(179, 230, 206);
+    margin-left: 60px;
+    font-size: 15px;
+  }
+  #play-button:hover, #stop-button:hover {
+    background-color: rgb(32, 105, 71);
+  }
+  #play-button:active, #stop-button:active {
+    background-color: rgb(46, 88, 69);
+    box-shadow: 0 5px rgb(20, 54, 39);
+    transform: translateY(4px);
+  }
+  #speedname{
+    color: rgb(45, 172, 112);
+    font-weight: 700;
+    font-size: 20px;
+  }
