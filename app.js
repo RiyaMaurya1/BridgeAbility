@@ -7,8 +7,6 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-const URI = 'mongodb+srv://admin-kalpikha:ibPYdEMS7zKWmcJE@cluster0.2x6duiz.mongodb.net/asd?retryWrites=true';
-
 mongoose.connect(URI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log(`CONNECTED TO MONGO!`);
